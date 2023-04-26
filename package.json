@@ -1,0 +1,19 @@
+{
+  "name": "webscrappingnodejs",
+  "version": "1.0.0",
+  "description": "Webscrapping test 1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMP-APZH/webscrap1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMP-APZH/webscrap1/issues"
+  },
+  "homepage": "https://github.com/JMP-APZH/webscrap1#readme"
+}
