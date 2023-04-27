@@ -6,7 +6,8 @@
   "scripts": {
     "dairy": "nodemon dairy.js",
     "fruitlegumes": "nodemon fruitlegumes.js",
-    "boissons": "nodemon boissons.js"
+    "boissons": "nodemon boissons.js",
+    "surgeles": "nodemon surgeles.js"
   },
   "repository": {
     "type": "git",
