@@ -2,9 +2,11 @@
   "name": "webscrappingnodejs",
   "version": "1.0.0",
   "description": "Webscrapping test 1.0",
-  "main": "index.js",
+  "main": "dairy.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "dairy": "nodemon dairy.js",
+    "fruitlegumes": "nodemon fruitlegumes.js",
+    "boissons": "nodemon boissons.js"
   },
   "repository": {
     "type": "git",

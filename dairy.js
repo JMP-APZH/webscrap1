@@ -1,4 +1,4 @@
-const PORT = 9000
+const PORT = 7000
 
 const axios = require('axios');
 const cheerio = require('cheerio');
@@ -30,7 +30,7 @@ axios(url)
                 prix,
                 quantite,
                 quantite2,
-                prixunite,
+                // prixunite,
                 img,
                 nutriscore,
                 url,
