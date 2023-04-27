@@ -7,7 +7,9 @@
     "dairy": "nodemon dairy.js",
     "fruitlegumes": "nodemon fruitlegumes.js",
     "boissons": "nodemon boissons.js",
-    "surgeles": "nodemon surgeles.js"
+    "surgeles": "nodemon surgeles.js",
+    "entretien": "nodemon entretien.js",
+    "viandes-poisson": "nodemon viandes-poisson.js"
   },
   "repository": {
     "type": "git",
