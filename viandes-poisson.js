@@ -22,15 +22,17 @@ axios(url)
             const prix = $(this).find('p.price-full').text()
             const img = $(this).find('img.owl-lazy').attr('data-src')
             const quantite = $(this).find('div.desc-small-text').text()
-            const quantite2 = $(this).find('div.poids-suffixe-holder').text()
-            const prixunite = $(this).find('div.unity-price').text()
+            const quantite2 = $(this).find('div.poids-suffixe-holder').text().replaceAll('\n', '').replaceAll('\t', '').replaceAll(' ', '')
+            const prixunite = $(this).find('div.unity-price').text().replaceAll('\n', '').replaceAll('\t', '').replaceAll(' ', '')
+            // const prixunite2 = prixunite.replaceAll('\n', '').replaceAll('\t', '').replaceAll(' ', '')
             const nutriscore = $(this).find('div.picto-vignette-holder').find('img').attr('src')
             articles.push({
                 nom,
                 prix,
                 quantite,
                 quantite2,
-                // prixunite,
+                prixunite,
+                // prixunite2,
                 img,
                 nutriscore,
                 url,
@@ -40,3 +42,4 @@ axios(url)
     }).catch(err => console.log(err))
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
+
